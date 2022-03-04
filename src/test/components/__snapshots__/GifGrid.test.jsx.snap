@@ -1,0 +1,22 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en el componenet <GifGrid /> > debe de hacer match con el snapshot 1`] = `
+<Fragment>
+  <h3
+    className="text-2xl text-cyan-700 font-medium mb-4 animate__animated animate__fadeInDown"
+  >
+    One Punch
+  </h3>
+  <p
+    className="text-2xl text-red-500 my-2 text-center font-semibold animate__animated animate__fadeInLeft"
+  >
+    Loading...
+  </p>
+  <div
+    className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
+  />
+  <hr
+    className="my-8 font-semibold"
+  />
+</Fragment>
+`;

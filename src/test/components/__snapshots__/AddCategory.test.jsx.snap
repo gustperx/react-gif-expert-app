@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en <AddCategory /> > debe de hacer match con el snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="border rounded-md w-full text-md text-gray-700 border-gray-700 h-6 p-4"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

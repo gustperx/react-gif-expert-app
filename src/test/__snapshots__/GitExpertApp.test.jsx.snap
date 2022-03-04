@@ -1,0 +1,48 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en el componente <GitExpertApp /> > debe de hacer match con el snapshot 1`] = `
+<div
+  className="bg-blue-50 p-8"
+>
+  <h2
+    className="text-3xl text-cyan-700 font-medium my-4"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr
+    className="my-4"
+  />
+  <ol />
+</div>
+`;
+
+exports[`Pruebas en el componente <GitExpertApp /> > debe de mostrar una lista de categorias 1`] = `
+<div
+  className="bg-blue-50 p-8"
+>
+  <h2
+    className="text-3xl text-cyan-700 font-medium my-4"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr
+    className="my-4"
+  />
+  <ol>
+    <GifGrid
+      category="One Punch"
+      key="One Punch"
+    />
+    <GifGrid
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </ol>
+</div>
+`;
